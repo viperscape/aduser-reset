@@ -9,8 +9,7 @@
                  [org.clojars.hozumi/clj-commons-exec "1.0.6"]
                  [compojure "1.1.5"]
                  [com.draines/postal "1.10.2"]
-                 [ring "1.1.8"]
-                 [http-kit "2.1.2"]]
+                 [ring "1.1.8"]]
   :plugins [[lein-ring "0.8.3"]]
   :ring {:handler com.aduser.core/app}
   :main com.aduser.core

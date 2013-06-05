@@ -1,8 +1,7 @@
 (ns com.aduser.core
   (:gen-class)
   (:use compojure.core
-        postal.core
-        org.httpkit.server)
+        postal.core)
   (:require [clj-commons-exec :as exec]
             [compojure.handler :as handler]
             [compojure.route :as route]
